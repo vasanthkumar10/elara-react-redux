@@ -1,5 +1,6 @@
 import CarContainer from "./components/CarContainer";
 import { CarHooksContainer } from "./components/CarHooksContainer";
+import UserContainer from "./components/UserContainer";
 import { store } from "./redux/store";
 import { Provider } from "react-redux";
 
@@ -8,7 +9,8 @@ function App() {
     <Provider store={store}>
       <div className="App">
         {/* <CarContainer /> */}
-        <CarHooksContainer />
+        {/* <CarHooksContainer /> */}
+        <UserContainer />
       </div>
     </Provider>
   );
